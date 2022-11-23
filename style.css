@@ -1,0 +1,150 @@
+.body{
+    background-image: url(image/wallpaper.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #000000;
+}
+.hidden{
+    display: none !important;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+  justify-content:space-between;
+  margin-top: 5px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  padding: 3px;
+}
+.left{
+    font-family: Sigmar One, Roboto;
+    padding-left: 5px;
+}
+.home{
+    font-family:Sigmar One, Roboto;
+    cursor: pointer;
+}
+.about{
+    font-family:Sigmar One, Roboto;
+    cursor: pointer;
+}
+.project{
+    font-family:Sigmar One, Roboto;
+    cursor: pointer;
+}
+.contact{
+    font-family:Sigmar One, Roboto;
+    cursor: pointer;
+    
+}
+.name{
+    font-family: Dancing Script;
+  font-size: 25px;
+  color: rgb(0, 0, 0);
+}
+.modal-about{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 70%;
+    background-color: rgb(253, 253, 253);
+    position: absolute;
+    padding: 5rem;
+    border-radius: 5px;
+    box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.3);
+    z-index: 10;
+    font-family:Roboto ;
+}
+.closeAbout{
+    float: right;
+    cursor: pointer;
+    font-family: Roboto;
+    font-size: 40px;
+    border: none;
+    background-color: white;
+}
+.guessNumber{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 70%;
+    background-color: rgb(139, 138, 138);
+    position: absolute;
+    padding: 5rem;
+    border-radius: 5px;
+    box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.3);
+    z-index: 10;
+    font-family:Roboto ;
+}
+.guess{
+    font-family:Sigmar One, Roboto;
+    cursor: pointer;
+}
+.guessNumber {
+    margin-top: 50px;
+    display: flex;
+    color: rgb(0, 0, 0);
+    font-family: Sigmar One;
+  }
+  .div-check {
+    padding-left: 20px;
+    flex: 1;
+    padding-right: 20px;
+    padding-bottom: 20px;
+  }
+  .div-result {
+    padding-left: 20px;
+    flex: 1;
+    font-size: 20px;
+    padding-right: 20px;
+  }
+  .numberInput {
+    font-family: Sigmar One;
+    font-size: 60px;
+    height: 90px;
+    width: 90px;
+  }
+  .guessBtn {
+    cursor: pointer;
+    text-align: center;
+    border: none;
+    border-radius: 3px;
+    font-family: Sigmar One;
+    float: right;
+    font-size: 20px;
+    height: 96px;
+    width: 90px;
+  }
+  .again {
+    text-align: center;
+    cursor: pointer;
+    border: none;
+    border-radius: 3px;
+    font-family: Sigmar One;
+    float: right;
+    font-size: 20px;
+    height: 96px;
+    width: 90px;
+  }
+.modal-contact{
+  top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    background-color: rgb(255, 253, 253);
+    position: absolute;
+    padding: 5rem;
+    border-radius: 5px;
+    box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.3);
+    z-index: 10;
+    font-family:Roboto ;
+}
+.closeContact{
+  float: right;
+    cursor: pointer;
+    font-family: Roboto;
+    font-size: 40px;
+    border: none;
+    background-color: white;
+}
